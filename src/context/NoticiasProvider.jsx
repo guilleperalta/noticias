@@ -26,6 +26,7 @@ const NoticiasProvider = ({children}) => {
             const {data} = await axios(url)
             setNoticias(data.articles)
             setTotalNoticias(data.totalResults)
+            console.log(data)
         }
         consultarAPI()
     },[pagina])
