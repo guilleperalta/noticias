@@ -40,7 +40,7 @@ const ListadoNoticias = () => {
                     marginY: 5
                 }}
             >
-                <Pagination 
+                <Pagination
                     count={totalPaginas}
                     color="primary" 
                     onChange={handleChangePagina}

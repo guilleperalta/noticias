@@ -1,5 +1,4 @@
 import { Card, CardActions, CardContent, CardMedia, Grid, Link, Typography } from '@mui/material'
-import React from 'react'
 
 const Noticia = ({noticia}) => {
 
