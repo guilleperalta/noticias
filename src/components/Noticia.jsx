@@ -12,7 +12,7 @@ const Noticia = ({noticia}) => {
         >
             <Card>
                 {urlToImage && (
-                    <CardMedia 
+                    <CardMedia
                         component={"img"}
                         alt={`Imagen de la noticia ${title}`}
                         image={urlToImage}
